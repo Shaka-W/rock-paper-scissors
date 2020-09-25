@@ -55,6 +55,10 @@ img {
     justify-content: center;
 }
 
+.button {
+    outline: none;
+}
+
 .btn + .btn {
     margin-left: 3rem;
 }
