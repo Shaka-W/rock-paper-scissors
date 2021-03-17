@@ -2,63 +2,73 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-.container {
+  }
+  
+  body {
+    background-color: lightblue;
+  }
+  
+  .container {
     max-width: 560px;
     width: 90%;
+    height: 75vh;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-}
-
-img {
-   width: 100%;
-   max-width: 150px;
-   cursor: pointer;
-}
-
-.main-title{
+    justify-content: center;
+  }
+  
+  img {
+    width: 100%;
+    max-width: 150px;
+    cursor: pointer;
+  }
+  
+  .main-title {
     text-align: center;
     margin: 5rem 0 4rem 0;
-}
-
-.scoreboard {
+  }
+  
+  .scoreboard {
     border: 3px solid #000;
     border-radius: 15px;
     max-width: 300px;
     margin: 0 auto 5rem auto;
     text-align: center;
-}
-
-.score-title {
+    width: 100%;
+  }
+  
+  .score-title {
     font-size: 1.2rem;
     margin: 1rem;
-}
-
-.score-msg {
+  }
+  
+  .score-msg {
     font-size: 1.1rem;
     margin-bottom: 1rem;
-}
-
-.score {
+  }
+  
+  .score {
     font-size: 1.3rem;
     margin-bottom: 1rem;
-}
-
-.player-score {
-   margin-right: 0.5rem;
-}
-
-.buttons {
+  }
+  
+  .player-score {
+    margin-right: 0.5rem;
+  }
+  
+  .button-container {
     display: flex;
     justify-content: center;
-}
-
-.button {
-    outline: none;
-}
-
-.btn + .btn {
+  }
+  
+  button {
+    outline: 0;
+    border: none;
+    background: transparent;
+  }
+  
+  .btn + .btn {
     margin-left: 3rem;
-}
+  }
+  
